@@ -2,7 +2,7 @@ class Solution {
 public:
     int max_size = 0;
     string max_string = \\;
-
+    //new
     //This function takes breakes the odd and even number of substrings corresponding to every character
     void expander(const string& s, int left, int right) {
         while (left >= 0 && right < s.length() && s[left] == s[right]) {
