@@ -1,5 +1,6 @@
 class Solution {
 public:
+//new
     string longestCommonPrefix(vector<string>& strs) {
         string ans;
         int minLengthString = INT_MAX ;
