@@ -29,6 +29,7 @@
 //     }
 // };
 
+//This is better approach
 
 //Method 2 : Pointer switching Method
 class Solution {
