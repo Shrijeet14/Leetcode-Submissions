@@ -86,7 +86,7 @@ public:
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-        if (!head) return NULL; // Handle empty list
+        if (!head) return NULL; 
 
         map<Node*, int> h1; // Maps original node to its index
         map<int, int> h2;   // Maps index to random pointer index
