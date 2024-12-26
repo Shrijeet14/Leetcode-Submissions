@@ -11,7 +11,7 @@ public:
                 minString = strs[i];
             }
         }
-
+//Nothing
         for(int i =0 ; i< minLengthString ; i++){
             int flag = 0;
 
