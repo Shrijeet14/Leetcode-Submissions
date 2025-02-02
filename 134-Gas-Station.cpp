@@ -6,9 +6,9 @@ public:
         int start = 0;
         
         for (int i = 0; i < n; i++) {
-            totalGas += gas[i];
-            totalCost += cost[i];
-            balance += gas[i] - cost[i];
+            totalGas = totalGas + gas[i];
+            totalCost = totalCost + cost[i];
+            balance = balance + gas[i] - cost[i];
             if (balance < 0) {  
                 start = i + 1; 
                 balance = 0;  
